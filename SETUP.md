@@ -5,7 +5,7 @@ DO AS I SAY
 
 * install mysql
 
-* insure it is running in port 3306
+* ensure it is running in port 3306
 
 * also you may set this credential -> username:root password:mysql
 
