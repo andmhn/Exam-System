@@ -2,35 +2,36 @@ DO AS I SAY
 
 # Database
 ====================================================
-install mysql
 
-insure it is running in port 3306
+* install mysql
 
-also you may set this credential -> username:root password:mysql
+* insure it is running in port 3306
 
-        If you want to provide your own, freely modify "src/main/Global.java" file 😌
+* also you may set this credential -> username:root password:mysql
 
-now create a database named "examsystem" and open it.
+  ( If you want to provide your own, freely modify "src/main/Global.java" file 😌)
 
-now open sql query tool;
+* now create a database named "examsystem" and open it.
 
-copy paste the "schema.sql" into it. and run it completely.
+* now open sql query tool and
 
-"there must be no error"
+* copy paste the "schema.sql" into it. and run it completely.
+
+* "there must be no error"
 
 
-# server
+# Server
 ====================================================
 
-# 1
-now open the folder into ecclipse
-with option "File" -> "Open Projects from FileSystem"
+* now open the folder into eclipse
 
-# 2
-now navigate to src/main/Login/User_Login.java
+* with option "File" -> "Open Projects from FileSystem"
 
-# 3
-run it
+
+* now navigate to src/main/Login/User_Login.java
+
+
+* run it
 
 =====================================================
 
