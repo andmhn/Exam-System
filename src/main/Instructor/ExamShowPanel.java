@@ -172,7 +172,7 @@ public class ExamShowPanel extends JPanel{
 				
 				try
 				{
-					BufferedImage bi = ImageIO.read(new File("next.jpg"));
+					BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));
 					chooseExamButton[index].setIcon(new ImageIcon(bi));
 					 bi = ImageIO.read(new File("delete.png"));
 					deleteExamButton[index].setIcon(new ImageIcon(bi));

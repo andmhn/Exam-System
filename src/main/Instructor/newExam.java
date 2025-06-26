@@ -74,7 +74,7 @@ public class newExam extends JPanel{
 		
 		try
 		{
-			BufferedImage bi = ImageIO.read(new File("next.jpg"));		
+			BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));		
 		}catch(Exception e){
 			//do something here
 		}

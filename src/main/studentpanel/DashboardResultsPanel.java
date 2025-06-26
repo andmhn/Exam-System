@@ -84,7 +84,7 @@ public class DashboardResultsPanel extends JPanel{
 				chooseResultButton[index].setBackground(Color.white);
 				try
 				{
-					BufferedImage bi = ImageIO.read(new File("next.jpg"));
+					BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));
 					chooseResultButton[index].setIcon(new ImageIcon(bi));
 				}catch(Exception e){
 					//do something here

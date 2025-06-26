@@ -89,7 +89,7 @@ public class DashboardExamShowPanel extends JPanel{
 				chooseExamButton[index].setBackground(Color.white);
 				try
 				{
-					BufferedImage bi = ImageIO.read(new File("next.jpg"));
+					BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));
 					chooseExamButton[index].setIcon(new ImageIcon(bi));
 				}catch(Exception e){
 					System.out.println("The Exam open button image can't be found !");
@@ -124,9 +124,9 @@ public class DashboardExamShowPanel extends JPanel{
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
-					if(numberOfQuestions<=1){    //also add logic of datetime of exam
-						chooseExamButton[index].setEnabled(false);
-					}
+					// if(numberOfQuestions<=1){    //also add logic of datetime of exam
+					// 	chooseExamButton[index].setEnabled(false);
+					// }
 				}
 				//-------------------------------//
 				yi+=(50);
