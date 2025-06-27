@@ -172,7 +172,7 @@ public class ShowStudents extends JPanel{
 				{
 					BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));
 					
-					 bi = ImageIO.read(new File("delete.png"));
+					 bi = ImageIO.read(new File("images\\delete.png"));
 				
 					
 					

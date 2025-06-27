@@ -892,7 +892,7 @@ public class newExam extends JPanel{
 //	 @Override
 //     protected void paintComponent(Graphics g) {
 //         super.paintComponent(g);
-//         File file = new File("background.png");
+//         File file = new File("images\\background.png");
 //         try 
 // 		{
 // 			BufferedImage img = ImageIO.read(file);

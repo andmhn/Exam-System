@@ -153,7 +153,7 @@ public class ResultAnalysis extends JPanel{
 				{
 					BufferedImage bi = ImageIO.read(new File("images\\next.jpg"));
 					chooseExamButton[index].setIcon(new ImageIcon(bi));
-					 bi = ImageIO.read(new File("delete.png"));
+					 bi = ImageIO.read(new File("images\\delete.png"));
 					
 					
 					
